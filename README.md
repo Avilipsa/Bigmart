@@ -19,8 +19,7 @@ Also about the item types and fat contents in them through variety of EDA plots
 4.We then converted categorical variables into numerical ones using One Hot Encoding in Data Pre-Processing Step.
 As, In One hot encoding, each category of a categorical variable is converted into a new binary column (which is 0 or 1).
 
-5.Before deciding on regression models, we checked the statistical inferences ,how our model will perform before 
-removing any non correlated preditors followed by heat map correlation.
+5.Before deciding on regression models, we checked the statistical inferences ,we are comparing the independent and dependent variables and check the R square value in order to see the accuracy, followed by heat map correlation.
 
 6. In the final steps we applied various models such as Linear Regression,Random Forest and XGBoostRegressor.
 And found that XGboost Regressor gives the highest accuracy of 73.39%.
